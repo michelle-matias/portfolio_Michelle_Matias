@@ -1,0 +1,14 @@
+/*
+ * Design tokens.
+ *
+ * This file is the single home for design tokens (colours, typography,
+ * spacing, radii, shadows). The full set is defined from DESIGN.md in the
+ * dedicated design-system issue. Until then only the font families are wired,
+ * so that the three typefaces from DESIGN.md are available as utilities:
+ *   font-display (Playfair Display), font-sans (Inter), font-mono (JetBrains Mono).
+ */
+@theme inline {
+  --font-display: var(--font-playfair-display);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains-mono);
+}
